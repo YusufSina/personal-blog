@@ -1,20 +1,25 @@
-import Head from 'next/head'
+import Head from "next/head";
+import Header from "../components/header/header";
+import useTranslation from 'next-translate/useTranslation'
 
 export default function Home() {
+  const { t, lang } = useTranslation('common')
+  const example = t('Software Developer')
+
+  console.log(lang);
+
   return (
     <div className="container">
       <Head>
-        <title>Create Next App</title>
+        <title>Yusuf Sina Yıldız · Software Developer</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main>
-        <h1 className="title">
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
-        </h1>
-
+        <Header />
         <p className="description">
           Get started by editing <code>pages/index.js</code>
+          {example}
         </p>
 
         <div className="grid">
@@ -54,8 +59,7 @@ export default function Home() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel" className="logo" />
+          Powered by <img src="/vercel.svg" alt="Vercel" className="logo" />
         </a>
       </footer>
 
@@ -205,5 +209,5 @@ export default function Home() {
         }
       `}</style>
     </div>
-  )
+  );
 }
