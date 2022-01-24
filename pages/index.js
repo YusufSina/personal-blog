@@ -1,15 +1,18 @@
 import Head from "next/head";
 import Header from "../components/header/header";
-import useTranslation from 'next-translate/useTranslation'
+import useTranslation from "next-translate/useTranslation";
+import setLanguage from 'next-translate/setLanguage'
+
+import "bootstrap/dist/css/bootstrap.css";
 
 export default function Home() {
-  const { t, lang } = useTranslation('common')
-  const example = t('Software Developer')
-
-  console.log(lang);
+  const { t, lang } = useTranslation("common");
 
   return (
-    <div className="container">
+    <div className="container custom-grid">
+      <div className="languages">
+        <span className={lang === 'en' && 'text-primary'} onClick={async() => await setLanguage('en')}>English</span> / <span className={lang === 'tr' && 'text-primary'} onClick={async() => await setLanguage('tr')}>Turkish</span>
+      </div>
       <Head>
         <title>Yusuf Sina Yıldız · Software Developer</title>
         <link rel="icon" href="/favicon.ico" />
@@ -17,31 +20,92 @@ export default function Home() {
 
       <main>
         <Header />
-        <p className="description">
-          Get started by editing <code>pages/index.js</code>
-          {example}
-        </p>
 
-        <div className="grid">
-          <a href="https://nextjs.org/docs" className="card">
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
-          </a>
+        <div className="container grid text-left py-5">
+          <p>{t("Hi, I am Yusuf Sina!")}</p>
 
-          <a href="https://nextjs.org/learn" className="card">
-            <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
+          <p>
+            {
+              t('paragraph-1')
+            }
+          </p>
 
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className="card"
-          >
-            <h3>Examples &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
-          </a>
+          <p>
+            {
+              t('paragraph-2')
+            }
+          </p>
 
-          <a
+          <p>
+            {
+              t('paragraph-3')
+            }
+          </p>
+
+          <div className="my-3">
+            <h5 className="blue-colored-header">{t("My Tech Stack")}</h5>
+            <p>
+              .NET Core, React.js, Solidity, Ethereum, Avalanche, Waves,
+              Blockchain, MSSQL, Releational Databases, Docker, Node.js,
+              React-Native, Expo, HyperLedger Fabric
+            </p>
+          </div>
+          <div className="my-3">
+            <h5 className="blue-colored-header">{t("Projects")}</h5>
+            <ul>
+              <li>
+                <a
+                  href="https://avalanche.blockmuseum.art"
+                  target={"_blank"}
+                  className="link-primary text-underline"
+                >
+                  {" "}
+                  {t('BlockMuseum | NFT Marketplace')}
+                </a>
+                <p>
+                  {
+                    t('project-1-desc')
+                  }
+                </p>
+                <p>
+                  {" "}
+                  <span className="fw-bold">{t('Tech Stack')}:</span>{" "}
+                  <span className="fst-italic">
+                    Solidity, .NET Core, React.js, MongoDB, Docker, Google Cloud
+                    Run
+                  </span>
+                </p>
+              </li>
+            </ul>
+          </div>
+
+          <div className="my-3">
+            <h5 className="blue-colored-header">{t("Links")}</h5>
+            <ul>
+              <li>
+                <a
+                  href="https://github.com/yusufsina"
+                  target={"_blank"}
+                  className="link-primary text-underline"
+                >
+                  {" "}
+                  Github
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.linkedin.com/in/yusufsina/"
+                  target={"_blank"}
+                  className="link-primary text-underline"
+                >
+                  {" "}
+                  Linkedin
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          {/* <a
             href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
             className="card"
           >
@@ -49,7 +113,7 @@ export default function Home() {
             <p>
               Instantly deploy your Next.js site to a public URL with Vercel.
             </p>
-          </a>
+          </a> */}
         </div>
       </main>
 
@@ -59,27 +123,14 @@ export default function Home() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Powered by <img src="/vercel.svg" alt="Vercel" className="logo" />
+          Powered by Next.js
         </a>
       </footer>
 
       <style jsx>{`
-        .container {
-          min-height: 100vh;
-          padding: 0 0.5rem;
-          display: flex;
-          flex-direction: column;
-          justify-content: center;
-          align-items: center;
-        }
-
         main {
           padding: 5rem 0;
           flex: 1;
-          display: flex;
-          flex-direction: column;
-          justify-content: center;
-          align-items: center;
         }
 
         footer {
@@ -145,9 +196,13 @@ export default function Home() {
         .grid {
           display: flex;
           align-items: center;
-          justify-content: center;
           flex-wrap: wrap;
 
+          max-width: 800px;
+          margin-top: 3rem;
+        }
+
+        .custom-grid {
           max-width: 800px;
           margin-top: 3rem;
         }
@@ -186,6 +241,9 @@ export default function Home() {
           height: 1em;
         }
 
+        .blue-colored-header {
+          color: #1c6dd0;
+        }
         @media (max-width: 600px) {
           .grid {
             width: 100%;
@@ -206,6 +264,21 @@ export default function Home() {
 
         * {
           box-sizing: border-box;
+        }
+
+        .text-underline {
+          webkit-text-decoration: underline !important;
+          text-decoration: underline !important;
+        }
+
+        .languages {
+          position: absolute;
+          left: 50%;
+          transform: translate(-50%, 0);
+        }
+
+        .languages > span {
+          cursor: pointer;
         }
       `}</style>
     </div>

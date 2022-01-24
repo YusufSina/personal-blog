@@ -1,4 +1,16 @@
 {
-  "title": "Hello world",
-  "Software Developer": "Yazılım Geliştirici"
+  "Software Developer": "Yazılım Geliştirici",
+  "About": "Hakkımda",
+  "Resume": "Öz geçmiş",
+  "Blog": "Blog",
+  "My Tech Stack": "Kullandığım Teknolojiler",
+  "Projects": "Projeler",
+  "Hi, I am Yusuf Sina!": "Merhaba, Ben Yusuf Sina!",
+  "paragraph-1": "Yazılım kariyerim lise zamanlarımda ilk ve tek hedefim olan Bilgisayar Mühendisliği bölümünü kazanarak başladı. Üniversite zamanımda 6 ay boyunca yaptığım stajda takım içerisinde full-stack geliştirici olarak çalıştım. Bulunduğum takıma, geliştirdiği web uygulamalarının front-end ve back-end tarafında katkı sağladım.",
+  "paragraph-2": "Üniversite yıllarımda blok zincir teknolojisiyle tanıştım. Bu sürecin başında sadece finansal yatırım olarak kullandığım blok zincir teknolojisiyle önce HyperLedger Fabric daha sonra Avalanche aracılığıyla yazılımcı olarak ilgilenmeye başladım. Şuanda ağırlıklı olarak web uygulamalarının back-end tarafında ve blok zincir tarafında görev almaktayım.",
+  "paragraph-3": "Son olarak belirtmek isterim ki; Metaverse, non-fungible token, DeFi gibi kavramların bir balon olduğunu, günümüzde ulaştığı değerleri haketmediğini düşünebilirsiniz. Haklı da olabilirsiniz fakat blok zincirin ortaya koyduğu çok daha önemli bir şey var. Merkeziyetsizlik...",
+  "BlockMuseum | NFT Marketplace": "BlockMuseum | NFT Pazaryeri",
+  "project-1-desc": "Avalanche üzerinde geliştirdiğim kullanıcılara NFT ticareti yapmalarını sağlayan bir pazaryeri uygulaması. Kullanıcılar metamask cüzdanları ile markete bağlanabilir ve beğendikleri NFT'leri geliştirdiğim akıllı sözleşmeyi kullanarak satın alabilirler.",
+  "Tech Stack": "Kullanılan Teknolojiler",
+  "Links": "Bağlantılar"
 }

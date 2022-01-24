@@ -1,4 +1,16 @@
 {
-  "title": "Hello world",
-  "Software Developer": "Software Developer"
+  "Software Developer": "Software Developer",
+  "About": "About",
+  "Resume": "Resume",
+  "Blog": "Blog",
+  "My Tech Stack": "My Tech Stack",
+  "Projects": "Projects",
+  "Hi, I am Yusuf Sina!": "Hi, I am Yusuf Sina!",
+  "paragraph-1": "My software career started by winning the Computer Engineering department, which was my first and only goal in my high school years. I worked as a full-stack developer in the team during my internship for 6 months during my university time. I contributed to my team on the front-end and back-end side of the web applications.",
+  "paragraph-2": "I heard of blockchain technology in my first year of university. At the beginning of the university, I became interested in blockchain technology, which I used only as a financial investment. I started researching blockchain technology as a software developer with HyperLedger Fabric and Avalanche. Currently, I mainly work on the back-end and blockchain side of web applications.",
+  "paragraph-3": "Finally, I would like to point out that; You may think that concepts such as Metaverse, non-fungible token, and DeFi are a bubble and do not deserve the values ​​they have reached today. You may be right, but there is something much more important that the blockchain reveals. Decentralization...",
+  "BlockMuseum | NFT Marketplace": "BlockMuseum | NFT Marketplace",
+  "project-1-desc": "A marketplace application that I developed on Avalanche that allows users to trade NFT. Users can connect to the market with their metamask wallet and buy the NFTs they like using the smart contract I developed.",
+  "Tech Stack": "Tech Stack",
+  "Links": "Links"
 }
