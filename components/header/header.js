@@ -30,7 +30,7 @@ export default function Header() {
           </Link>
         </div>
 
-        <div>
+        {/* <div>
           <Link href="/blog">
             <a>{t("Blog")}</a>
           </Link>
@@ -39,7 +39,7 @@ export default function Header() {
           <Link href="/resume">
             <a>{t("Resume")}</a>
           </Link>
-        </div>
+        </div> */}
   </div>
     </>
   );

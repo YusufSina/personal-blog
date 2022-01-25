@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <div className="container custom-grid">
       <div className="languages">
-        <span className={lang === 'en' && 'text-primary'} onClick={async() => await setLanguage('en')}>English</span> / <span className={lang === 'tr' && 'text-primary'} onClick={async() => await setLanguage('tr')}>Turkish</span>
+        <span className={lang === 'en' && 'text-primary'} onClick={async() => await setLanguage('en')}>{t('English')}</span> / <span className={lang === 'tr' && 'text-primary'} onClick={async() => await setLanguage('tr')}>{t('Turkish')}</span>
       </div>
       <Head>
         <title>Yusuf Sina Yıldız · Software Developer</title>
@@ -50,6 +50,70 @@ export default function Home() {
               React-Native, Expo, HyperLedger Fabric
             </p>
           </div>
+
+          <div className="my-3">
+            <h5 className="blue-colored-header">{t("Experience")}</h5>
+            <ul>
+              <li>
+                <span
+                >
+                  {" "}
+                  {t('TRA Information Technologies')}
+                </span>
+                {' : '}
+                <span
+                  className="fst-italic"
+                >
+                  {" "}
+                  {t('From January 2021 to Today, Full-time, Software Developer')}
+                </span>
+                <p>
+                  {
+                    t('experience-1-desc')
+                  }
+                </p>
+              </li>
+              <li>
+                <span
+                >
+                  {" "}
+                  {t('Coredet aka Ritmus')}
+                </span>
+                {' : '}
+                <span
+                  className="fst-italic"
+                >
+                  {" "}
+                  {t('From March 2020 to August 2020, Intern, Software Developer')}
+                </span>
+                <p>
+                  {
+                    t('experience-2-desc')
+                  }
+                </p>
+              </li>
+              <li>
+                <span
+                >
+                  {" "}
+                  {t('Sakarya University')}
+                </span>
+                {' : '}
+                <span
+                  className="fst-italic"
+                >
+                  {" "}
+                  {t('From October 2019 to March 2020, Part-time, Working Student')}
+                </span>
+                <p>
+                  {
+                    t('experience-3-desc')
+                  }
+                </p>
+              </li>
+            </ul>
+          </div>
+
           <div className="my-3">
             <h5 className="blue-colored-header">{t("Projects")}</h5>
             <ul>
