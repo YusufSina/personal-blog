@@ -339,7 +339,6 @@ export default function Home() {
         }
 
         
-        
         .languages {
           position: absolute;
           left: 50%;
