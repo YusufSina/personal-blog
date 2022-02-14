@@ -9,6 +9,7 @@ export default function Header() {
     <>
       <div className="d-flex justify-content-center">
         <Image
+          className="profile-pic"
           src="/images/profile.jpeg" // Route of the image file
           height={180} // Desired size with correct aspect ratio
           width={180} // Desired size with correct aspect ratio

@@ -52,7 +52,7 @@ export default function Home() {
           </div>
 
           <div className="my-3">
-            <h5 className="blue-colored-header">{t("Experience")}</h5>
+            <h5 className="blue-colored-header">{t("Experiences")}</h5>
             <ul>
               <li>
                 <span
@@ -206,6 +206,9 @@ export default function Home() {
           align-items: center;
         }
 
+
+
+
         footer img {
           margin-left: 0.5rem;
         }
@@ -335,15 +338,27 @@ export default function Home() {
           text-decoration: underline !important;
         }
 
+        
         .languages {
           position: absolute;
           left: 50%;
           transform: translate(-50%, 0);
         }
-
+        
         .languages > span {
           cursor: pointer;
         }
+
+
+        /* Header İçin */
+        .profile-pic{height:0 !important; aspect-ratio:256/285 !important; }
+
+        .profile-pic:hover{transition: all 1s ease-in; -webkit-box-shadow: 0px 0px 10px 8px #1F2DFF; box-shadow: 0px 0px 10px 8px #1F2DFF;}
+
+        div.d-flex span{ aspect-ratio:256/285 !important; width:256px !important; height:285px !important; transform: scale(0.7);}
+
+        div.d-flex span:hover{transition: all 0.5s ease-in; -webkit-box-shadow: 0px 0px 10px 2px #1F2DFF; box-shadow: 0px 0px 10px 2px #1F2DFF;}
+
       `}</style>
     </div>
   );
