@@ -17,13 +17,18 @@
   "Turkish": "Türkçe",
   "experience-1-desc": "Sorumluluğumun olduğu projelerdeki görevlerim; back-end uygulamaları geliştirmek, blok zincir ağlarını back-end uygulamalarına entegre etmek, tasarımı oluşturulmuş front-end uygulamalarını back-end uygulamalarına entegre etmek, akıllı sözleşmeler geliştirmek, blok zincir hakkında araştırmalar yapmak, veritabanı tasarımları oluşturmak, GitLab üzerinde repo ve branch yönetimi yapmak ve uygulamaları yayına almaktır.",
   "TRA Information Technologies": "TRA Bilişim",
-  "From January 2021 to Today, Full-time, Software Developer": "Ocak 2021'den Bugüne, Tam Zamanlı, Yazılım Geliştirici",
+  "From January 2021 to June 2022, Full-time, Software Developer": "Ocak 2021'den Haziran 2022'ye, Tam Zamanlı, Yazılım Geliştirici",
   "Coredet aka Ritmus": "Coredet eski adıyla Ritmus",
   "From March 2020 to August 2020, Intern, Software Developer": "Mart 2020'den Ağustos 2020'ye, Stajyer, Yazılım Geliştirici",
   "experience-2-desc": "Görevlerim; uygulamarın back-end ve front-end tarafında geliştirmeler yaparak takımıma destek vermekti.",
   "From October 2019 to March 2020, Part-time, Working Student": "Ekim 2019'dan Mart 2020'ye, Yarı Zamanlı, Çalışan Öğrenci",
   "experience-3-desc": "Bir masaüstü uygulaması geliştdim ve fakültemin dekan yardımcısıyla çalıştım.",
   "Experience": "Tecrübe",
-  "Sakarya University": "Sakarya Üniversitesi"
-
+  "Sakarya University": "Sakarya Üniversitesi",
+  "Bitexen": "Bitexen",
+  "From June 2022 to Today, Full-time, Blockchain Developer": "Haziran 2022'den Bugüne, Tam Zamanlı, Blokzincir Geliştirici",
+  "experience-4-desc": "Buraya detay eklemek için çok erken fakat kısaca, blokzincir ekibi içerisindeyim.",
+  "Fetih | Blockchain based Game": "Fetih | Blokzincir Tabanlı Bir Oyun",
+  "project-2-desc": "Web üzerinden oynanabilen bir strateji oyunu. Bir harita üzerinde sahiplenilebilir bölgeler var ve kullanıcılar bu bölgeleri fethetmek için birbirlerine savaş açarlar. Eğer bir kullanıcı tüm bölgeleri fethederse, hazinedeki tüm ödülün sahibi olur.",
+  "project-2-desc-2": "4 kişilik bir ekibiz. Bu projenin blokzincir geliştiricisi ve takım lideriyim."
 }

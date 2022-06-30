@@ -16,13 +16,19 @@
   "English": "English",
   "Turkish": "Turkish",
   "experience-1-desc": "My duties in the projects I am responsible for; Developing back-end applications, integrating blockchain networks into back-end applications, integrating designed front-end applications into back-end applications, developing smart contracts, researching blockchain, creating database designs, managing repo and branch on GitLab and publishing applications.",
-  "TRA Information Technologies": "TRA Bilişim",
-  "From January 2021 to Today, Full-time, Software Developer": "From January 2021 to Today, Full-time, Software Developer",
+  "TRA Information Technologies": "TRA Information Technologies",
+  "From January 2021 to June 2022, Full-time, Software Developer": "From January 2021 to June 2022, Full-time, Software Developer",
   "Coredet aka Ritmus": "Coredet aka Ritmus",
   "From March 2020 to August 2020, Intern, Software Developer": "From March 2020 to August 2020, Intern, Software Developer",
   "experience-2-desc": "My duties; was to support my team by developing back-end and front-end of the applications.",
   "From October 2019 to March 2020, Part-time, Working Student": "From October 2019 to Martch 2020, Part-time, Working Student",
   "experience-3-desc": "I developed a desktop application and worked with the associate dean of my faculty",
   "Experience": "Experience",
-  "Sakarya University": "Sakarya Üniversitesi"
+  "Sakarya University": "Sakarya University",
+  "Bitexen": "Bitexen",
+  "From June 2022 to Today, Full-time, Blockchain Developer": "From June 2022 to Today, Full-time, Blockchain Developer",
+  "experience-4-desc": "It's too early to add detail here but shortly, I am in the blockchain team.",
+  "Fetih | Blockchain based Game": "Fetih | Blockchain based Game",
+  "project-2-desc": "A strategic game that can be played on the web. There are lands that are ownable on the map and users declare war on each other to conquer other lands. If the user gets all of the lands, he/she gets all of the prices from the treasury wallet.",
+  "project-2-desc-2": "We are 4-member team. I am a blockchain developer and a team leader on this project."
 }

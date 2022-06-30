@@ -52,8 +52,27 @@ export default function Home() {
           </div>
 
           <div className="my-3">
-            <h5 className="blue-colored-header">{t("Experiences")}</h5>
+            <h5 className="blue-colored-header">{t("Experience")}</h5>
             <ul>
+            <li>
+                <span
+                >
+                  {" "}
+                  {t('Bitexen')}
+                </span>
+                {' : '}
+                <span
+                  className="fst-italic"
+                >
+                  {" "}
+                  {t('From June 2022 to Today, Full-time, Blockchain Developer')}
+                </span>
+                <p>
+                  {/* {
+                    t('experience-4-desc')
+                  } */}
+                </p>
+              </li>
               <li>
                 <span
                 >
@@ -65,7 +84,7 @@ export default function Home() {
                   className="fst-italic"
                 >
                   {" "}
-                  {t('From January 2021 to Today, Full-time, Software Developer')}
+                  {t('From January 2021 to June 2022, Full-time, Software Developer')}
                 </span>
                 <p>
                   {
@@ -117,6 +136,33 @@ export default function Home() {
           <div className="my-3">
             <h5 className="blue-colored-header">{t("Projects")}</h5>
             <ul>
+            <li>
+                <a
+                  href="https://fetih-yusufsina.vercel.app/"
+                  target={"_blank"}
+                  className="link-primary text-underline"
+                >
+                  {" "}
+                  {t('Fetih | Blockchain based Game')}
+                </a>
+                <p>
+                  {
+                    t('project-2-desc')
+                  }
+                </p>
+                <p>
+                  {
+                    t('project-2-desc-2')
+                  }
+                </p>
+                <p>
+                  {" "}
+                  <span className="fw-bold">{t('Tech Stack')}:</span>{" "}
+                  <span className="fst-italic">
+                    Solidity, Chainlink Oracle, .NET Core, React.js, PostgreSQL
+                  </span>
+                </p>
+              </li>
               <li>
                 <a
                   href="https://avalanche.blockmuseum.art"
