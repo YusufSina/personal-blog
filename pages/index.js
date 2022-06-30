@@ -45,7 +45,7 @@ export default function Home() {
           <div className="my-3">
             <h5 className="blue-colored-header">{t("My Tech Stack")}</h5>
             <p>
-              .NET Core, React.js, Solidity, Ethereum, Avalanche, Waves,
+              Python, .NET Core, React.js, Solidity, Ethereum, Avalanche, Waves,
               Blockchain, MSSQL, Releational Databases, Docker, Node.js,
               React-Native, Expo, HyperLedger Fabric
             </p>
