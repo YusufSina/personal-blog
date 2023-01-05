@@ -4,7 +4,7 @@ import useTranslation from "next-translate/useTranslation";
 
 import Countdown from 'react-countdown';
 
-const weddingEpochTime = 1690668000000
+const weddingEpochTime = 1690646400000
 export default function YSMWedding() {
     const { t, lang } = useTranslation("common");
 
