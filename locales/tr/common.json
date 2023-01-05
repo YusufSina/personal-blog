@@ -30,5 +30,8 @@
   "experience-4-desc": "Buraya detay eklemek için çok erken fakat kısaca, blokzincir ekibi içerisindeyim.",
   "Fetih | Blockchain based Game": "Fetih | Blokzincir Tabanlı Bir Oyun",
   "project-2-desc": "Web üzerinden oynanabilen bir strateji oyunu. Bir harita üzerinde sahiplenilebilir bölgeler var ve kullanıcılar bu bölgeleri fethetmek için birbirlerine savaş açarlar. Eğer bir kullanıcı tüm bölgeleri fethederse, hazinedeki tüm ödülün sahibi olur.",
-  "project-2-desc-2": "4 kişilik bir ekibiz. Bu projenin blokzincir geliştiricisi ve takım lideriyim."
+  "project-2-desc-2": "4 kişilik bir ekibiz. Bu projenin blokzincir geliştiricisi ve takım lideriyim.",
+  "Wedding": "Düğün",
+  "We got married!": "Biz evlendik!",
+  "We are getting married in!": "{{day}} gün, {{hour}} saat, {{minute}} dakika, {{second}} saniye sonra evleniyoruz!"
 }

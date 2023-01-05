@@ -31,6 +31,12 @@ export default function Header() {
           </Link>
         </div>
 
+        <div>
+          <Link href="/wedding">
+            <a>{t("Wedding")}</a>
+          </Link>
+        </div>
+
         {/* <div>
           <Link href="/blog">
             <a>{t("Blog")}</a>

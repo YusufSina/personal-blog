@@ -30,5 +30,8 @@
   "experience-4-desc": "It's too early to add detail here but shortly, I am in the blockchain team.",
   "Fetih | Blockchain based Game": "Fetih | Blockchain based Game",
   "project-2-desc": "A strategic game that can be played on the web. There are lands that are ownable on the map and users declare war on each other to conquer other lands. If the user gets all of the lands, he/she gets all of the prices from the treasury wallet.",
-  "project-2-desc-2": "We are 4-member team. I am a blockchain developer and a team leader on this project."
+  "project-2-desc-2": "We are 4-member team. I am a blockchain developer and a team leader on this project.",
+  "Wedding": "Wedding",
+  "We got married!": "We got married!",
+  "We are getting married in!": "We are getting married in {{day}} days, {{hour}} hours, {{minute}} minutes, {{second}} seconds!"
 }
